@@ -1,4 +1,4 @@
-# Sequoia-Dashboard — specs Remote: `git@github.com:SiliconCentric/Sequoia-Dashboard.git`
+# Sequoia-Dashboard — specs Remote: `git@github.com:soccentric-sequoia/Sequoia-Dashboard.git`
 Stack: node. A standalone dashboard UI leaf. Runs anywhere; not part of the on-device image. ## Layout * `webui/` — Next.js app-router frontend. Has its own `package.json`, separate from the root one.
 * `contract-tests/` — pytest suite with its own Makefile. Python, not JS.
 * `docker/` — packaging. ## Coupling * **Not proto-coupled to Sequoia-HAL.** Reads from Sequoia-Server over HTTP/SSE.
